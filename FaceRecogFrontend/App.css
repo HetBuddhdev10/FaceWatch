@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.time-label {
+  font-weight: bold;
+}
+
+
+.current-time {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 30px; /* Adjust as needed */
+  font-size: 27px; /* Increase font size */
+  color: #fff309; /* Change color if needed */
+  /* Add other styles like background, padding etc., as needed */
+}
+
+
+
+
+.picture-container {
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered-image {
+  max-width: 100%;
+  max-height: 80vh; /* Limiting max height to leave space for text */
+  margin-bottom: 20px; /* Space between image and text below */
+}
+
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image-display {
+  text-align: center;
+}
+
+.text, .location {
+  margin-bottom: 25px; /* Consistent space below text elements */
+  font-size: 50px;
+}
+
+.location {
+  font-size: 40px;
+  color: #1bfaa8;
+}
+
+.image {
+  max-width: 200px; /* Adjust this value as needed */
+  max-height: 200px; /* Adjust this value as needed */
+  height: auto; /* Maintain aspect ratio */
+  width: auto; /* Maintain aspect ratio */
+}
+
+
+body {
+  background-color: rgb(16, 5, 142);
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}

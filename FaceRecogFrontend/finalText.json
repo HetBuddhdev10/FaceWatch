@@ -1,0 +1,32 @@
+[
+    {
+        "id": 0,
+        "Name": "No suspect found",
+        "Location":"-----",
+        "Face": "./images/mysteryMan.png"
+    },
+    {
+        "id": 1,
+        "Name": "Het",
+        "Location":"Stauffer",
+        "Face": "./images/het.png" 
+    },
+    {
+        "id": 2,
+        "Name": "Viren",
+        "Location":"Douglas",
+        "Face": "./images/viren.png" 
+    },
+    {
+        "id": 3,
+        "Name": "Nolan",
+        "Location":"BioSciences Complex",
+        "Face": "./images/nolan.png" 
+    },
+    {
+        "id": 4,
+        "Name": "Eiqan",
+        "Location":"Mitchell Hall",
+        "Face": "./images/eiqan.png" 
+    }
+]
